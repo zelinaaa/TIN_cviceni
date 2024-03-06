@@ -1,0 +1,1 @@
+ Both methods (and the methods below) look correct. If you get the system directory as CWD then this might be due to a wrapper doing a CD before starting Java. For example javapath might do this. Specify the path to java.exe to the actual Java_:home directory directly to avoid this. 
